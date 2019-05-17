@@ -1,0 +1,182 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+
+   background-color: #eee;
+   padding-top: 70px;
+
+}
+
+
+
+#navbar{
+   width: 100%;
+   height: 70px;
+   background-color:#959798;
+   color: #030303;
+   position: fixed;
+   top: 0px;
+   padding-top: 5PX;
+   float: left;
+
+
+}
+#navbar a:hover{
+  background-color: #062138;
+  color: #A5F5FA;
+
+
+}
+#linkref{
+    color:#FCFAFC;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+.btnmuranga{
+
+  margin: 30px;
+  border-radius: 10px;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+    width: 400PX;
+  font-size:2em;
+  font-weight:50;
+  text-transform:capitalize;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+    background: #179b77;
+
+}
+.btnriverine{
+
+
+    margin: 30px;
+    border-radius: 10px;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+      width: 400PX;
+    font-size:2em;
+    font-weight:50;
+    text-transform:capitalize;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+      background: #179b77;
+
+
+}
+.btnriverine :hover ,.btnriverine :focus {
+  background: #179b77;
+}
+.availability{
+
+     position: absolute;
+     left: 10px;
+     top:400px;
+     width: 600px;
+     margin: 50px;
+     background: rgba(19, 35, 47, 0.9);
+     padding: 40px;
+     margin: 40px auto;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+
+
+}
+.outdate{
+
+  position: absolute;
+  left: 300px;
+  top: 40px;
+}
+
+.neto{
+  background-image: url('images/nokras6.jpg');
+  background-repeat: no-repeat;
+  background-size: 1650px 853px;
+  height: 600px;
+
+}
+.neto1{
+
+  height: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: monospace;
+
+
+}
+.neto2{
+
+  height: 200px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+
+}
+.neto3{
+
+  height: 200px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+
+}
+.container{
+ max-width: 1200px;
+ margin: auto;
+ background-color: #f2f2f2;
+ overflow: auto;
+}
+.gallery{
+     margin: 2px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 390px;
+}
+.gallery img{
+    width: 100%;
+    text-align: center;
+}
+.desc{
+  font-weight: normal;
+  font-family: cursive;
+  font-size: 18px;
+}
+.button {
+    background-color: #0781FB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+
+}

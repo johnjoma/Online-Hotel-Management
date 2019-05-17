@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Center website */
+.main2 {
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row2 {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 33.33%;
+    display: none;
+    /* Hide all elements by default */
+    
+
+}
+
+/* Clear floats after rows */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content2 {
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn2 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.active {
+  background-color: #666;
+  color: white;
+}
+img{
+
+  height: 350px;
+}

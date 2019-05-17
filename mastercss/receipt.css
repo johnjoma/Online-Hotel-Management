@@ -1,0 +1,51 @@
+img{
+  position: absolute;
+  left: 550px;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+.receipt{
+
+  width: 1000px;
+  height: 600px;
+
+    border:solid 1px;
+    margin-left: 10%;
+
+}
+.content{
+   position: absolute;
+   top: 150px;
+   margin-left:15px;;
+
+
+
+}
+.date{
+
+  position: absolute;
+  top: 0px;
+  left: 70%;
+
+
+}
+.nokras{
+
+margin-top: 30px;
+margin-bottom: 5px;
+
+
+}
+.content3{
+  position:absolute;
+  top:200px;
+
+
+}
+.button{
+        margin-left:110%
+    }

@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Nokras|Hotel</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="mastercss/style.css">
+  <center>
+  <div id="navbar">
+  
+    <a href="index.php" id="linkref"><i class="fa fa-home"></i>HOME</a>
+    <a href="checkrates.php" id="linkref"><i class="fa fa-bed"></i>ROOMS</a>
+      <a href="dining.html" id="linkref"><i class="fa fa-cutlery"></i>DINING&BARS</a>
+
+
+   <a href="experience.php" id="linkref"><i class="fa fa-smile-o"></i>EXPERIENCE</a>
+   <a href="about.php" id="linkref"><i class="fa fa-book"></i>ABOUT</a>
+
+
+</div>
+</center>
+</head>
+<body>
+  <section class="neto">
+    <div class="slideshow-container">
+
+  <div class="mySlides fade">
+
+    <img src="conference/conference1.jpg" class="slide" >
+    <div class="text">Whatever you want. Whoever you are.</div>
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="conference/conference2.jpg" class="slide">
+    <div class="text">Everything. Right where you need it.</div>
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="conference/conference3.jpg" class="slide">
+    <div class="text">We Love Having You Here.</div>
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="conference/conference4.jpg" class="slide">
+    <div class="text">Caption Three</div>
+  </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+      <span class="dot"></span>
+  </div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+  }
+  </script>
+    </section>
+
+</body>
+<footer>
+
+</footer>
+</html>

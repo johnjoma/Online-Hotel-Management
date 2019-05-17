@@ -1,0 +1,148 @@
+
+html, body {font-family: Arial, Helvetica, sans-serif;
+
+    height: 100%;
+
+}
+h1{
+  font-size: 20px;
+}
+.conditions{
+   width: 90%;
+   margin-left: 5%;
+   font-size: 16px;
+
+}
+
+
+#navbar{
+   width: 100%;
+   height: 70px;
+   background-color:#1E88E5;
+   color: #1A237E;
+   position: fixed;
+   top: 0px;
+   padding-top: 5PX;
+   float: left;
+
+
+}
+#navbar a:hover{
+  background-color: #062138;
+  color: #A5F5FA;
+
+
+}
+#linkref{
+    color:#FCFAFC;
+    text-decoration: none;
+    padding: 15px;
+
+
+}
+
+#container{
+
+  min-height: 100%;
+
+}
+
+*basic reset*/
+* {margin: 0; padding: 0;}
+.alert {
+  position: absolute;
+  left: 350px;
+  top:130px;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+.confirm{
+  position: absolute;
+  margin-left: 30%;
+  height: 600px;
+  width: 400px;
+  top: 400px;
+
+
+
+}
+
+
+input[type=text] {
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.confirmbtn {
+    background-color: #4CAF50;
+    width: auto;
+    padding: 10px 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+span.text {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/*...........footer.........*/
+#footer{
+background-color: #000;
+position: relative;
+height: 100px;
+margin-top:100%;
+clear: both;
+}
